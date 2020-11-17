@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "start:dev": "concurrently \"nodemon index.ts\" \"json-server --watch ./mocks/api.json -p 3001\" --kill-others"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
+    "dotenv": "^8.2.0",
     "nodemon": "^1.19.3"
   }
 }

@@ -1,0 +1,817 @@
+{
+  "playlists": {
+    "kind": "youtube#playlistListResponse",
+    "etag": "otb9OST0twU72DhpUfJ4wpeb2Pc",
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+      "totalResults": 8,
+      "resultsPerPage": 5
+    },
+    "items": [
+      {
+        "kind": "youtube#playlist",
+        "etag": "UbAjqw1JJy44B7NS-kOCtmWnwQY",
+        "id": "PLV2t3EHAClRy9f0Dnov7B6f6_CgY-HQXq",
+        "snippet": {
+          "publishedAt": "2017-06-12T02:59:59Z",
+          "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+          "title": "6",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/UyPcyPozqHs/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/UyPcyPozqHs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/UyPcyPozqHs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/UyPcyPozqHs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/UyPcyPozqHs/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Chris Vasquez",
+          "localized": {
+            "title": "6",
+            "description": ""
+          }
+        },
+        "status": {
+          "privacyStatus": "public"
+        },
+        "contentDetails": {
+          "itemCount": 6
+        },
+        "player": {
+          "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLV2t3EHAClRy9f0Dnov7B6f6_CgY-HQXq\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e"
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "y1aTaQZojL1IauwnfHHs7DUY-u4",
+        "id": "PLV2t3EHAClRwWDmFsfi-kx1OBAN73ER6Y",
+        "snippet": {
+          "publishedAt": "2017-04-12T03:11:55Z",
+          "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+          "title": "Sh3",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/P8jJV39Brj8/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/P8jJV39Brj8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/P8jJV39Brj8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/P8jJV39Brj8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/P8jJV39Brj8/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Chris Vasquez",
+          "localized": {
+            "title": "Sh3",
+            "description": ""
+          }
+        },
+        "status": {
+          "privacyStatus": "public"
+        },
+        "contentDetails": {
+          "itemCount": 7
+        },
+        "player": {
+          "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLV2t3EHAClRwWDmFsfi-kx1OBAN73ER6Y\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e"
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "DyqzLcvGZHBdKzgh9zvXNRiSgxg",
+        "id": "PLV2t3EHAClRwz5SZjlVwm6KXgPBPZCiQq",
+        "snippet": {
+          "publishedAt": "2017-02-18T17:52:05Z",
+          "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+          "title": "Sh2",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/GPubeQYvzYk/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GPubeQYvzYk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GPubeQYvzYk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GPubeQYvzYk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/GPubeQYvzYk/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Chris Vasquez",
+          "localized": {
+            "title": "Sh2",
+            "description": ""
+          }
+        },
+        "status": {
+          "privacyStatus": "public"
+        },
+        "contentDetails": {
+          "itemCount": 6
+        },
+        "player": {
+          "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLV2t3EHAClRwz5SZjlVwm6KXgPBPZCiQq\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e"
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "RPMQ705VNPxU2lAF49u2k2lJ-Gc",
+        "id": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+        "snippet": {
+          "publishedAt": "2016-12-04T21:25:08Z",
+          "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+          "title": "Shw",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Chris Vasquez",
+          "localized": {
+            "title": "Shw",
+            "description": ""
+          }
+        },
+        "status": {
+          "privacyStatus": "public"
+        },
+        "contentDetails": {
+          "itemCount": 10
+        },
+        "player": {
+          "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLV2t3EHAClRy01TRIECee90-5LXvEzxFU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e"
+        }
+      },
+      {
+        "kind": "youtube#playlist",
+        "etag": "5-JhFfCp7ZPsKYvSh-EgBrOmPpw",
+        "id": "PLV2t3EHAClRzhCQpe-OT6hLnZVuWne5T_",
+        "snippet": {
+          "publishedAt": "2016-11-30T01:37:33Z",
+          "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+          "title": "Shower",
+          "description": "",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/_Z3xZED1doA/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_Z3xZED1doA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_Z3xZED1doA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_Z3xZED1doA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/_Z3xZED1doA/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Chris Vasquez",
+          "localized": {
+            "title": "Shower",
+            "description": ""
+          }
+        },
+        "status": {
+          "privacyStatus": "public"
+        },
+        "contentDetails": {
+          "itemCount": 7
+        },
+        "player": {
+          "embedHtml": "\u003ciframe width=\"640\" height=\"360\" src=\"http://www.youtube.com/embed/videoseries?list=PLV2t3EHAClRzhCQpe-OT6hLnZVuWne5T_\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen\u003e\u003c/iframe\u003e"
+        }
+      }
+    ]
+  },
+  "playlistItems": [
+    {
+      "kind": "youtube#playlistItemListResponse",
+      "etag": "goNhWz23IueTLvBMZAPFlNWzdx8",
+      "items": [
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "CMekPBrgW_GRbGC4zqfJqcpf9_c",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS41MzJCQjBCNDIyRkJDN0VD",
+          "snippet": {
+            "publishedAt": "2016-12-07T01:44:45Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Ta-ku Ft. Alina Baraz - Down For You",
+            "description": "Ta-ku ft. Alina Baraz - Down For You\r\n\r\nSongs To Make Up To: itunes: http://futr.cl/SongsToMakeUpTo\r\nspotify: http://futr.cl/SongsToMakeUpToSpotify\r\nyoutube: http://futr.cl/Ta-kuYoutube\r\n\r\nI make music…: https://soundcloud.com/takugotbeats\r\n\r\nI take photos…: https://instagram.com/takubeats\r\n\r\nFounder of Team Cozy: https://instagram.com/team_cozy\r\n\r\nFounder of Create & Explore: http://www.createandexplore.co/\r\n\r\nCo-Owner of Westons Barbershop: http://www.westonsbarbers.com/\r\nContributing Editor at StreetDreamsMagazine:\r\nhttp://streetdreamsmag.co/\r\nhttp://www.nosleepproject.com/\r\nhttp://www.dowhatyoulove.co/",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/uFP68oPdiVo/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/uFP68oPdiVo/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/uFP68oPdiVo/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/uFP68oPdiVo/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 0,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "uFP68oPdiVo"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "tXgGMWk9NfFaBidjKw7T1RUS7_c",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS5GNjNDRDREMDQxOThCMDQ2",
+          "snippet": {
+            "publishedAt": "2016-12-08T04:35:39Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Private video",
+            "description": "This video is private.",
+            "thumbnails": {},
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 1,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "Cq3GM61f3_k"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "a_M7EAabo8dsIQ9meXC6g9zutao",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS40NzZCMERDMjVEN0RFRThB",
+          "snippet": {
+            "publishedAt": "2017-01-30T04:21:44Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Utada - Come Back To Me (Official Video)",
+            "description": "Music video by Utada performing Come Back To Me. © 2009 The Island Def Jam Music Group\n\n#Utada #ComeBackToMe #Vevo",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 2,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "CKPA8L5ZpqU"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "XthQvrCIH-4XGOouPfKkoDONK7U",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS5EMEEwRUY5M0RDRTU3NDJC",
+          "snippet": {
+            "publishedAt": "2017-01-30T04:22:13Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Utada Hikaru - This One (Crying Like A Child)",
+            "description": "Lyrics:\r\nHow can I put this, I, I, I\r\nI'm an independent woman, I\r\nI've been crying like a child\r\n\r\nI just wanted you to know the person that I am\r\nMore than any other of your fans\r\nI will love you for a thousand years\r\nYours truly\r\n\r\nI ain't gonna play it cool\r\nLet me tell you I've tried that already\r\nEvery day and every night\r\nYour words ring through me\r\n\r\nWho am I trying to fool\r\nHoney, I've been living on my own like Freddie\r\nBut I'm still a woman\r\nBaby, tell me how\r\n\r\nHow could I ever love another\r\nHow could you say you don't remember\r\nGod knows I'd give anything\r\nFor just one more night together\r\n\r\nToday I miss you more than ever\r\nHow could you say you don't remember\r\nThis one's for the happiness\r\nI'll be wishing you forever\r\n\r\nIt's just another Friday night\r\nFor you and your accessories\r\nAnd there you are before my eyes\r\n\r\nTwo hours and for fifteen minutes you are here\r\nI don't want to scream least I should hear\r\nA whisper in the darkness disappear\r\nSincerely\r\n\r\nWe should get back on the road\r\nLike Simon and Garfunkle\r\nLet's get married\r\nYou are all the shelter that I need above me\r\n\r\nWho am I trying to fool\r\nHoney, I've got your ringtone on my Blackberry\r\nAnd I won't give a damn\r\nIf only I knew how\r\n\r\nHow could I ever love another\r\nHow could you say you don't remember\r\nGod knows I'd give anything\r\nFor just one more night together\r\n\r\nToday I miss you more than ever\r\nHow could you say you don't remember\r\nThis one's for the happiness\r\nI'll be wishing you forever\r\n\r\nYou've got me crying like a child\r\nAin't no need for me to lie\r\nA hundred jpeg files\r\nFilling up my hard drive\r\n\r\nYou've got me crying like a child\r\nAnd the crowd is going wild\r\nThis one, this is the one\r\nCome on and give it up\r\n\r\nHow could I ever love another\r\nHow could you say you don't remember\r\nGod knows I'd give anything\r\nFor just one more night together\r\n\r\nToday I miss you more than ever\r\nHow could you say you don't remember\r\nThis one's for the happiness\r\nI'll be wishing you forever\r\n\r\nHow could I ever love another\r\nHow could you say you don't remember\r\nGod knows I'd give anything\r\nFor just one more night together\r\n\r\nToday I miss you more than ever\r\nHow could you say you don't remember\r\nThis one's for the happiness\r\nI'll be wishing you forever \r\n\r\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n© The song belongs to Utada Hikaru.\r\nAbsolutely no ©opyright infringement is intended.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/w2fZQJIZIPk/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/w2fZQJIZIPk/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/w2fZQJIZIPk/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 3,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "w2fZQJIZIPk"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "M3PY60jgML6jLUcRfnJ5A42oVUY",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS41Mzk2QTAxMTkzNDk4MDhF",
+          "snippet": {
+            "publishedAt": "2017-02-03T04:57:55Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Too Close To Touch - \"Miss Your Face\" (Full Album Stream)",
+            "description": "Listen to the full album: http://bit.ly/2cifcTj\n\"Miss Your Face\" by Too Close To Touch from the album 'Haven't Been Myself,' available now\nOrder at http://haventbeenmyself.com\n\nFacebook: https://www.facebook.com/tooclosetotouch\nTwitter: https://twitter.com/TooCloseToTouch\nInstagram: http://instagram.com/tooclosetotouchband\n\nLyrics\n\nI'm sick of living off of leaving all the things I thought I loved. It's not the fact they all deceive, I just believe a lying tongue and maybe, I was built for the guilt that I let sink in. But lately, I would kill for the will that lived in me. Would it be easier to turn away, from all the things we've made too afraid and I can't take it. And down the road I know I'll miss your face, and all the things we made. Too afraid and I can't fake it. And I don't mean to kill this dream we've got\nI'm used to lying through my teeth before the feeling seems to stop. And maybe, I can stay, run away from the pain inside. But lately, I'm aware, I don't care for the ones I leave behind. Would it be easier to turn away, from all the things we've made. Too afraid and I can't take it and down the road I know I'll miss your face, and all the things we made. Too afraid and I can't fake it. I'm so sorry, she cut me deep, and hope hasn't found me since. Would it be easier to turn away, from all the things we've made. Too afraid and I can't take it. Would it be easier to turn away, from all the things we've made. Too afraid and I can't take it and down the road I know I'll miss your face, and all the things we made. Too afraid and I can't fake it",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/yev3jAz9RnY/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/yev3jAz9RnY/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/yev3jAz9RnY/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/yev3jAz9RnY/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/yev3jAz9RnY/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 4,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "yev3jAz9RnY"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "DJXnv8x0shCwR0wPgzT-yjf8AVE",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS5EQUE1NTFDRjcwMDg0NEMz",
+          "snippet": {
+            "publishedAt": "2017-02-03T04:58:15Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "I The Mighty \"Andrew's Song\" (Oil in Water version)",
+            "description": "Oil in Water by I The Mighty is a collection of re-imagined songs from their album Connector. Available now at https://ithemigthy.lnk.to/oilinwaterID\n\nFollow I The Mighty:\nhttp://facebook.com/ithemighty\nhttp://twitter.com/ithemighty\nhttp://instagram.com/ithemighty\n\nStay Connected With Us:\nhttp://facebook.com/EqualVision\nhttp://twitter.com/EqualVision\nhttp://instagram.com/EqualVision\n\n#ITheMighty #OilInWater",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/NhQRhqhz1RQ/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/NhQRhqhz1RQ/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/NhQRhqhz1RQ/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/NhQRhqhz1RQ/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/NhQRhqhz1RQ/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 5,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "NhQRhqhz1RQ"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "UGWp2iCRmeG8v4yUnlSjtwH6_zg",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS4yMUQyQTQzMjRDNzMyQTMy",
+          "snippet": {
+            "publishedAt": "2017-02-07T04:07:00Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "BORN OF OSIRIS - Empires Erased (Official Music Video)",
+            "description": "BORN OF OSIRIS // The Eternal Reign // OUT NOW\n\niTunes: http://smarturl.it/TheEternalReign-IT\nAmazon: http://smarturl.it/TheEternalReign-AM\nGooglePlay: http://smarturl.it/TheEternalReign-GP\nMerch / CD / Vinyl: http://smarturl.it/BOO-SumerianStore\n\n--\n\nProduced/Engineered/Mixed and Mastered by Nick Sampson\n\nThis is “THE ETERNAL REIGN” (“The New Reign” completely re-recorded and re-envisioned - also includes the brand new song “Glorious Day”)\n\nPROGRESSIVE. EPIC. and STILL CRUSHING.\n\nFilmed by Sam Leabo\nwww.samleabo.com\nEdited by Steven Contreras\n\n--- \nFOLLOW BORN OF OSIRIS \nhttps://www.facebook.com/bornofosiris \nhttps://twitter.com/booofficial \nhttps://www.instagram.com/boocrue \n\nFOLLOW SUMERIAN RECORDS\nhttp://sumerianrecords.com \nhttp://facebook.com/sumerianrecords \nhttps://twitter.com/SumerianRecords \nhttps://www.instagram.com/sumerianrec...",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/ukowTSnwcOI/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/ukowTSnwcOI/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/ukowTSnwcOI/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/ukowTSnwcOI/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/ukowTSnwcOI/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 6,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "ukowTSnwcOI"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "UWfCYiZGkDWGf_d0krtKCczHtgY",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS45RTgxNDRBMzUwRjQ0MDhC",
+          "snippet": {
+            "publishedAt": "2017-02-07T04:07:52Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "BAD OMENS - The Fountain (Official Music Video)",
+            "description": "Bad Omens (Self - Titled) // OUT NOW\n\niTunes: http://smarturl.it/BadOmens-iTunes\nAmazon: http://smarturl.it/BadOmens-AmazonMP3\nGooglePlay: http://smarturl.it/BadOmens-GooglePlay\nMerch: https://www.sumerianmerch.com/badomens\n\n--\nMusic video directed by Orie McGinness at Enlighten Creative Studio\nwww.enlightencreativestudio.com \n--\nROCK USA: 7/16 - Oshkosh, WI @ Ford Festival Park\n--\n\"THE FOUNTAIN\" // LYRICS: \nWhat will I have left when even the\nhurt is gone and I can't feel a thing?\nWould you had been there when I came home?\nCould you hold on another day?\nI wish I had not held\nHeld on to you so long\nBut I was just so damn afraid\nI wish I hadn't used you to pull me\nOut of this dark lonely place\n\nI had the whole damn world and I gave it all away\nWhat did I think I would save?\nFor better or for worse this is my burden to take\nBecause I'm the only one to blame\nYou're so much better off\nWith nothing but memories of\nMemories of my face\nBecause I have no use now that\nyou're gone and now I'm running out of faith\n\nTogether we will live forever\n\nI'm not afraid anymore\nForever\nI'm not afraid anymore\n\nWe will live forever\n\n---\n\nFOLLOW SUMERIAN\nhttp://sumerianrecords.com\nhttp://facebook.com/sumerianrecords\nhttps://twitter.com/SumerianRecords\nhttps://www.instagram.com/sumerianrecords/?hl=en\n\nFOLLOW BAD OMENS\nhttp://www.badomensofficial.com\nhttps://www.facebook.com/badomensofficial\nhttps://twitter.com/badomenscult?lang=en\nhttps://www.instagram.com/badomensofficial/?hl=en",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/q9YYqRUY_DU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/q9YYqRUY_DU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/q9YYqRUY_DU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/q9YYqRUY_DU/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/q9YYqRUY_DU/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 7,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "q9YYqRUY_DU"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "RP2LM9xFlrlCq0rDtYGhnABRCeQ",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS5ENDU4Q0M4RDExNzM1Mjcy",
+          "snippet": {
+            "publishedAt": "2017-02-08T04:48:44Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Time, The Valuator - When I Meet Death (OFFICIAL MUSIC VIDEO)",
+            "description": "Dreambound\nhttps://www.facebook.com/dreamboundmusic\nhttp://vk.com/dreamboundmusic\nhttps://twitter.com/dream_bound\nhttp://dreambound.storenvy.com\n________________________________\n\nArtist: Time, The Valuator\nSong: When I Meet Death\nAlbum: Single (2017)\nHometown: Essen, Germany\nWebsite: https://www.facebook.com/timethevaluator\niTunes: http://found.ee/9oINL\nGoogle Play: http://found.ee/SbPhd \nAmazon: http://found.ee/5ZFyI\nSpotify: http://found.ee/HcRIM\n________________________________\n\nLabel: Famined Records\nWebsite: http://www.faminedrecords.com\nFacebook: https://www.facebook.com/FaminedRecords\n________________________________\n\nLyrics:\n\nHow come I feel you here?\nHas my time run out?\nTonight I will face you once again.\n\nIs it like they always say?\nWill I see it all again?\nAn infinite loop of memories\nSpinning and spinning into nothingness\nso far apart from the state of the living\nIs it anything like I am picturing it?\n\nAnd if my time's up\nThen let me tell you I have no regrets\nJust hear me out now\nI can finally let go\nI'm not afraid anymore\nMy love, don't mourn me\nBecause I'll always be there for you\n\nLights flash before my eyes\nA mystery unknown\nWill your sight feel like fire?\nIlluminate\n\nTake my hand, lead me out\nNo matter how this ends\nI'm done with my amends\nSo will you solemnly embrace me?\n________________________________\n\nCredits:\n\nRecorded and Mixed by \nEmbark Audio\nhttp://www.embarkaudio.com/\n\nMastered by \nAlex Kloss Mastering\nhttp://alexkloss.de/\n\nDirected by \nPavel Trebukhin\nhttp://www.tre.lv/\n\nActors\nLotti Holz and Yannik Guszan\n________________________________\n\n© Famined Records 2017, All Rights Reserved.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/pfCF9erLE_w/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/pfCF9erLE_w/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/pfCF9erLE_w/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/pfCF9erLE_w/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/pfCF9erLE_w/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 8,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "pfCF9erLE_w"
+            }
+          }
+        },
+        {
+          "kind": "youtube#playlistItem",
+          "etag": "gcYrN0CZbF7mYnjsUL_9B70CfI0",
+          "id": "UExWMnQzRUhBQ2xSeTAxVFJJRUNlZTkwLTVMWHZFenhGVS4yMDhBMkNBNjRDMjQxQTg1",
+          "snippet": {
+            "publishedAt": "2017-02-08T04:48:47Z",
+            "channelId": "UCc9zOjF0Ro-HUQbww52Pt_Q",
+            "title": "Time, The Valuator - Elusive Reasons (OFFICIAL MUSIC VIDEO)",
+            "description": "Dreambound\nhttps://www.facebook.com/dreamboundmusic\nhttp://vk.com/dreamboundmusic\nhttps://twitter.com/dream_bound\nhttp://dreambound.storenvy.com\n________________________________\n\nArtist: Time, The Valuator\nSong: Elusive Reasons\nAlbum: Single (2016)\nHometown: Essen, Germany\nWebsite: https://www.facebook.com/timethevaluator\n________________________________\n\nLabel: Famined Records\nWebsite: http://www.faminedrecords.com\nFacebook: https://www.facebook.com/FaminedRecords\n________________________________\n\nLyrics:\n\nJust another day in this messed up world, I delete and rewind. \nFor a moment I take in all the silence that's surrounding us. \nMoving on, forgetting about the lives we could be leading. \nWhile the engines move and the lights still flash, \nI'm staying deaf and blind.  \nAll within, everything on the outside. \nLike a twist of nature's destined path, \nWe seek forgiveness in the arms of our own consciousness.  \n\nI am the one, I am no one. \n\nSo I will live to tell of all these nights I drown in this.  \nWill I ever stop believing there is hope for the footsteps we're leaving. \nFor elusive reasons we’re all born with a hole in our hearts.  \nFor elusive reasons we’re all destined to drift apart. \n\nThis is the last chance to escape, my ticket to salvation.\nI can see the light shine through the door, my only way out of here. \nThis is the last chance to escape, my ticket to salvation. \nI can see the light shine through the door.  \nThis is the moment it has finally come and will take me away.\nI move into the light, my only way out of here.\n\nAll within, everything on the outside. \nLike a twist of nature's destined path, \nWe seek forgiveness in the arms of our own consciousness.\nFor elusive reasons, for elusive reasons.\n\nSo I will live to tell of all these nights I drown in this.  \nWill I ever stop believing there is hope for the footsteps we're leaving. \nFor elusive reasons we’re all born with a hole in our hearts. \nFor elusive reasons we’re all destined to drift apart. \n________________________________\n\nCredits:\n\nFull production by \nEmbark Audio\nhttp://www.embarkaudio.com/\n\nDirected by \nPavel Trebukhin\nhttp://www.tre.lv/\n________________________________\n\n© Famined Records 2016, All Rights Reserved.",
+            "thumbnails": {
+              "default": {
+                "url": "https://i.ytimg.com/vi/THXIclrFAOU/default.jpg",
+                "width": 120,
+                "height": 90
+              },
+              "medium": {
+                "url": "https://i.ytimg.com/vi/THXIclrFAOU/mqdefault.jpg",
+                "width": 320,
+                "height": 180
+              },
+              "high": {
+                "url": "https://i.ytimg.com/vi/THXIclrFAOU/hqdefault.jpg",
+                "width": 480,
+                "height": 360
+              },
+              "standard": {
+                "url": "https://i.ytimg.com/vi/THXIclrFAOU/sddefault.jpg",
+                "width": 640,
+                "height": 480
+              },
+              "maxres": {
+                "url": "https://i.ytimg.com/vi/THXIclrFAOU/maxresdefault.jpg",
+                "width": 1280,
+                "height": 720
+              }
+            },
+            "channelTitle": "Chris Vasquez",
+            "playlistId": "PLV2t3EHAClRy01TRIECee90-5LXvEzxFU",
+            "position": 9,
+            "resourceId": {
+              "kind": "youtube#video",
+              "videoId": "THXIclrFAOU"
+            }
+          }
+        }
+      ],
+      "pageInfo": {
+        "totalResults": 10,
+        "resultsPerPage": 25
+      }
+    }
+  ],
+  "videos": {
+    "kind": "youtube#videoListResponse",
+    "etag": "kGdVVUSidWMnPbYTr-KxhRFyhKc",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "F7TABYQ4EFXOI8NBnzeoBPik_-k",
+        "id": "uFP68oPdiVo",
+        "snippet": {
+          "publishedAt": "2015-07-14T09:37:56Z",
+          "channelId": "UCEeYgkNF61pzZy1s1gkAaSw",
+          "title": "Ta-ku Ft. Alina Baraz - Down For You",
+          "description": "Ta-ku ft. Alina Baraz - Down For You\r\n\r\nSongs To Make Up To: itunes: http://futr.cl/SongsToMakeUpTo\r\nspotify: http://futr.cl/SongsToMakeUpToSpotify\r\nyoutube: http://futr.cl/Ta-kuYoutube\r\n\r\nI make music…: https://soundcloud.com/takugotbeats\r\n\r\nI take photos…: https://instagram.com/takubeats\r\n\r\nFounder of Team Cozy: https://instagram.com/team_cozy\r\n\r\nFounder of Create & Explore: http://www.createandexplore.co/\r\n\r\nCo-Owner of Westons Barbershop: http://www.westonsbarbers.com/\r\nContributing Editor at StreetDreamsMagazine:\r\nhttp://streetdreamsmag.co/\r\nhttp://www.nosleepproject.com/\r\nhttp://www.dowhatyoulove.co/",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/uFP68oPdiVo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          "channelTitle": "Ta-ku",
+          "tags": [
+            "Down For You",
+            "Ta-ku",
+            "Dance",
+            "Beats & Breaks / Electronica",
+            "future classic",
+            "songs to break up to",
+            "songs to make up to",
+            "fall4you",
+            "love again",
+            "work in progress",
+            "taku",
+            "sunrise/beautiful",
+            "australia",
+            "flume",
+            "chet faker",
+            "george maple",
+            "hayden james",
+            "Alina Baraz"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Ta-ku Ft. Alina Baraz - Down For You",
+            "description": "Ta-ku ft. Alina Baraz - Down For You\r\n\r\nSongs To Make Up To: itunes: http://futr.cl/SongsToMakeUpTo\r\nspotify: http://futr.cl/SongsToMakeUpToSpotify\r\nyoutube: http://futr.cl/Ta-kuYoutube\r\n\r\nI make music…: https://soundcloud.com/takugotbeats\r\n\r\nI take photos…: https://instagram.com/takubeats\r\n\r\nFounder of Team Cozy: https://instagram.com/team_cozy\r\n\r\nFounder of Create & Explore: http://www.createandexplore.co/\r\n\r\nCo-Owner of Westons Barbershop: http://www.westonsbarbers.com/\r\nContributing Editor at StreetDreamsMagazine:\r\nhttp://streetdreamsmag.co/\r\nhttp://www.nosleepproject.com/\r\nhttp://www.dowhatyoulove.co/"
+          }
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "x6DwOWNojkQWVYTal-Ox0kAxWDs",
+        "id": "CKPA8L5ZpqU",
+        "snippet": {
+          "publishedAt": "2009-10-05T21:11:42Z",
+          "channelId": "UC3S_SErDlqjav4FofVOJ1TQ",
+          "title": "Utada - Come Back To Me (Official Video)",
+          "description": "Music video by Utada performing Come Back To Me. © 2009 The Island Def Jam Music Group\n\n#Utada #ComeBackToMe #Vevo",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/CKPA8L5ZpqU/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "UtadaVEVO",
+          "tags": [
+            "Utada",
+            "Come",
+            "Back",
+            "To",
+            "Me",
+            "Island",
+            "Def",
+            "Jam",
+            "Pop",
+            "Utada Come Back To Me",
+            "Utada Vevo"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Utada - Come Back To Me (Official Video)",
+            "description": "Music video by Utada performing Come Back To Me. © 2009 The Island Def Jam Music Group\n\n#Utada #ComeBackToMe #Vevo"
+          }
+        }
+      }
+    ],
+    "pageInfo": {
+      "totalResults": 2,
+      "resultsPerPage": 2
+    }
+  }
+}
