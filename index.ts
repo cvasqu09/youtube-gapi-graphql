@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 import { ApolloServer, gql } from 'apollo-server';
-import { typeDef as PlaylistTypes } from './playlist/playlist';
+import { typeDef as PlaylistTypes, resolvers as PlaylistResolvers } from './playlist/playlist';
 import { YouTubeAPI } from './services/YouTubeAPI';
 
 const rootQueryTypeDefs = gql`
@@ -17,7 +17,7 @@ const rootQueryResolvers = {
 }
 
 const typeDefs = [rootQueryTypeDefs, PlaylistTypes];
-const resolvers = [rootQueryResolvers]
+const resolvers = [rootQueryResolvers, PlaylistResolvers]
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.

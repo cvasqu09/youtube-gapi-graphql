@@ -18,10 +18,34 @@ export class YouTubeAPI {
           part: 'snippet,contentDetails',
         },
       });
-      console.log('getPlaylists results', res);
       return res.data.items;
     } catch(e) {
-      // console.log('e', e);
+      console.log('e', e);
+    }
+  }
+
+  async getPlaylistItems(id: string): Promise<any> {
+    try {
+      const res = await this.apiInstance.get('/playlistItems', {
+        params: {
+          playlistId: id,
+          part: 'snippet',
+          mine: true,
+          maxResults: this.MAX_RESULTS
+        }
+      })
+
+      return res.data[0].items
+        .filter((item) => !item.snippet.title.includes('Private video'))
+        .map((item) => ({
+          publishedAt: item.snippet.publishedAt,
+          title: item.snippet.title,
+          description: item.snippet.description,
+          videoId: item.snippet.resourceId.videoId,
+          imageUrl: item.snippet.thumbnails.high?.url || item.snippet.thumbnails.medium?.url,
+        }));
+    } catch(err) {
+      console.log('get playlist Items error', err);
     }
   }
 }
