@@ -5,7 +5,6 @@ export const typeDef = gql`
     id: String!,
     title: String!,
     channelId: String!,
-    addedAt: String!,
     tags: [String]!
   }
 `;

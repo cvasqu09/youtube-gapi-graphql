@@ -2,21 +2,26 @@ require('dotenv').config();
 
 import { ApolloServer, gql } from 'apollo-server';
 import { typeDef as PlaylistTypes, resolvers as PlaylistResolvers } from './playlist/playlist';
+import { typeDef as VideoTypes } from './video/video';
 import { YouTubeAPI } from './services/YouTubeAPI';
+
+const yapi = new YouTubeAPI();
 
 const rootQueryTypeDefs = gql`
   type Query {
     playlists: [Playlist]
+    videos(videoIds: [String]): [Video]
   }
 `;
 
 const rootQueryResolvers = {
   Query: {
-    playlists: async () => await new YouTubeAPI().getPlaylists(),
+    playlists: async () => await yapi.getPlaylists(),
+    videos: async (_, { videoIds }) => await yapi.getVideoInfo(videoIds)
   }
 }
 
-const typeDefs = [rootQueryTypeDefs, PlaylistTypes];
+const typeDefs = [rootQueryTypeDefs, PlaylistTypes, VideoTypes];
 const resolvers = [rootQueryResolvers, PlaylistResolvers]
 
 // The ApolloServer constructor requires two parameters: your schema

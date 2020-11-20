@@ -48,4 +48,27 @@ export class YouTubeAPI {
       console.log('get playlist Items error', err);
     }
   }
+
+  async getVideoInfo(videoIds: string[]): Promise<any> {
+    try {
+      const res = await this.apiInstance.get('/videos', {
+        params: {
+          id: videoIds.join(','),
+          part: 'snippet',
+          maxResults: this.MAX_RESULTS,
+        },
+      });
+
+      console.log(res.data.items);
+
+      return res.data.items.map((item) => ({
+        id: item.id,
+        title: item.snippet.title,
+        channelId: item.snippet.channelId,
+        tags: item.snippet.tags,
+      }));
+    } catch (err) {
+      console.log('get video info error')
+    }
+  }
 }

@@ -688,11 +688,11 @@
   ],
   "videos": {
     "kind": "youtube#videoListResponse",
-    "etag": "kGdVVUSidWMnPbYTr-KxhRFyhKc",
+    "etag": "gdQInVjyEk8PAjfZvldYQZjyNCI",
     "items": [
       {
         "kind": "youtube#video",
-        "etag": "F7TABYQ4EFXOI8NBnzeoBPik_-k",
+        "etag": "cW2geRz6dd08oyr5pOX1rxw1kwU",
         "id": "uFP68oPdiVo",
         "snippet": {
           "publishedAt": "2015-07-14T09:37:56Z",
@@ -748,11 +748,30 @@
             "title": "Ta-ku Ft. Alina Baraz - Down For You",
             "description": "Ta-ku ft. Alina Baraz - Down For You\r\n\r\nSongs To Make Up To: itunes: http://futr.cl/SongsToMakeUpTo\r\nspotify: http://futr.cl/SongsToMakeUpToSpotify\r\nyoutube: http://futr.cl/Ta-kuYoutube\r\n\r\nI make music…: https://soundcloud.com/takugotbeats\r\n\r\nI take photos…: https://instagram.com/takubeats\r\n\r\nFounder of Team Cozy: https://instagram.com/team_cozy\r\n\r\nFounder of Create & Explore: http://www.createandexplore.co/\r\n\r\nCo-Owner of Westons Barbershop: http://www.westonsbarbers.com/\r\nContributing Editor at StreetDreamsMagazine:\r\nhttp://streetdreamsmag.co/\r\nhttp://www.nosleepproject.com/\r\nhttp://www.dowhatyoulove.co/"
           }
+        },
+        "statistics": {
+          "viewCount": "1111809",
+          "likeCount": "17246",
+          "dislikeCount": "174",
+          "favoriteCount": "0",
+          "commentCount": "265"
+        },
+        "topicDetails": {
+          "relevantTopicIds": [
+            "/m/04rlf",
+            "/m/02lkt",
+            "/m/04rlf",
+            "/m/02lkt"
+          ],
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Electronic_music",
+            "https://en.wikipedia.org/wiki/Music"
+          ]
         }
       },
       {
         "kind": "youtube#video",
-        "etag": "x6DwOWNojkQWVYTal-Ox0kAxWDs",
+        "etag": "rewE0hQLzByTiXq4awabOKjoELc",
         "id": "CKPA8L5ZpqU",
         "snippet": {
           "publishedAt": "2009-10-05T21:11:42Z",
@@ -806,6 +825,27 @@
             "title": "Utada - Come Back To Me (Official Video)",
             "description": "Music video by Utada performing Come Back To Me. © 2009 The Island Def Jam Music Group\n\n#Utada #ComeBackToMe #Vevo"
           }
+        },
+        "statistics": {
+          "viewCount": "29258156",
+          "likeCount": "164239",
+          "dislikeCount": "3245",
+          "favoriteCount": "0",
+          "commentCount": "8562"
+        },
+        "topicDetails": {
+          "relevantTopicIds": [
+            "/m/04rlf",
+            "/m/064t9",
+            "/m/02lkt",
+            "/m/04rlf",
+            "/m/02lkt"
+          ],
+          "topicCategories": [
+            "https://en.wikipedia.org/wiki/Electronic_music",
+            "https://en.wikipedia.org/wiki/Music",
+            "https://en.wikipedia.org/wiki/Pop_music"
+          ]
         }
       }
     ],

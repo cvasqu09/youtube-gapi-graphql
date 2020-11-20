@@ -26,7 +26,7 @@ export const typeDef = gql`
     id: String!,
     snippet: PlaylistSnippet
     contentDetails: PlaylistContentDetails
-    playlistItems: [PlaylistItem]
+    playlistItems: [PlaylistItem],
   }
   
 `;
@@ -35,6 +35,7 @@ export const resolvers = {
   Playlist: {
     playlistItems: (root, _,) => {
       return new YouTubeAPI().getPlaylistItems(root.id)
-    }
+    },
+
   }
 }
