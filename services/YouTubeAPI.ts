@@ -18,8 +18,16 @@ export class YouTubeAPI {
           part: 'snippet,contentDetails',
         },
       });
-      return res.data.items;
-    } catch(e) {
+      return res.data.items.map(playlist => ({
+        ...playlist,
+        publishedAt: playlist.snippet?.publishedAt,
+        channelId: playlist.snippet?.channelId,
+        title: playlist.snippet?.title,
+        description: playlist.snippet?.description,
+        imageUrl: playlist.snippet?.thumbnails?.high?.url || playlist.snippet?.thumbnails?.medium?.url || '',
+        numberOfVideos: playlist.contentDetails?.itemCount
+      }));
+    } catch (e) {
       console.log('e', e);
     }
   }
@@ -44,7 +52,7 @@ export class YouTubeAPI {
           videoId: item.snippet.resourceId.videoId,
           imageUrl: item.snippet.thumbnails.high?.url || item.snippet.thumbnails.medium?.url,
         }));
-    } catch(err) {
+    } catch (err) {
       console.log('get playlist Items error', err);
     }
   }
