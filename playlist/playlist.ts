@@ -27,9 +27,8 @@ export const typeDef = gql`
 
 export const resolvers = {
   Playlist: {
-    playlistItems: (root, _,) => {
-      return new YouTubeAPI().getPlaylistItems(root.id)
+    playlistItems: (root, _, context) => {
+      return new YouTubeAPI().getPlaylistItems(root.id, context)
     },
-
   }
 }

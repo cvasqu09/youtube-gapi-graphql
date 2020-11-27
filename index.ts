@@ -16,8 +16,8 @@ const rootQueryTypeDefs = gql`
 
 const rootQueryResolvers = {
   Query: {
-    playlists: async () => await yapi.getPlaylists(),
-    videos: async (_, { videoIds }) => await yapi.getVideoInfo(videoIds)
+    playlists: async (_, __, context) => await yapi.getPlaylists(context),
+    videos: async (_, { videoIds }, context) => await yapi.getVideoInfo(videoIds, context)
   }
 }
 
@@ -26,9 +26,16 @@ const resolvers = [rootQueryResolvers, PlaylistResolvers]
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  context: ({ req }) => ({
+    authorization: req.headers.authorization
+  })
+});
 
 // The `listen` method launches a web server.
 server.listen(4201).then(({ url }) => {
   console.log(`🚀  Server ready at ${ url }`);
 });
+

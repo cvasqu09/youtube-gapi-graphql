@@ -9,7 +9,8 @@ export class YouTubeAPI {
   private apiInstance = YouTubeAPIInstance;
   private MAX_RESULTS = 25;
 
-  async getPlaylists(): Promise<any> {
+  async getPlaylists(context: any): Promise<any> {
+    console.log('context: ', context);
     try {
       const res = await this.apiInstance.get('/playlists', {
         params: {
@@ -17,6 +18,7 @@ export class YouTubeAPI {
           mine: true,
           part: 'snippet,contentDetails',
         },
+        headers: this.attachHeaders(context)
       });
       return res.data.items.map(playlist => ({
         ...playlist,
@@ -32,7 +34,7 @@ export class YouTubeAPI {
     }
   }
 
-  async getPlaylistItems(id: string): Promise<any> {
+  async getPlaylistItems(id: string, context: any): Promise<any> {
     try {
       const res = await this.apiInstance.get('/playlistItems', {
         params: {
@@ -40,10 +42,11 @@ export class YouTubeAPI {
           part: 'snippet',
           mine: true,
           maxResults: this.MAX_RESULTS
-        }
+        },
+        headers: this.attachHeaders(context)
       })
 
-      return res.data[0].items
+      return res.data.items
         .filter((item) => !item.snippet.title.includes('Private video'))
         .map((item) => ({
           publishedAt: item.snippet.publishedAt,
@@ -57,7 +60,7 @@ export class YouTubeAPI {
     }
   }
 
-  async getVideoInfo(videoIds: string[]): Promise<any> {
+  async getVideoInfo(videoIds: string[], context: any): Promise<any> {
     try {
       const res = await this.apiInstance.get('/videos', {
         params: {
@@ -65,6 +68,7 @@ export class YouTubeAPI {
           part: 'snippet',
           maxResults: this.MAX_RESULTS,
         },
+        headers: this.attachHeaders(context)
       });
 
       console.log(res.data.items);
@@ -79,4 +83,8 @@ export class YouTubeAPI {
       console.log('get video info error')
     }
   }
+
+  private attachHeaders = (context) => ({
+   authorization: context.authorization
+  })
 }
