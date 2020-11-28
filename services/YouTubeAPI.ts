@@ -10,7 +10,6 @@ export class YouTubeAPI {
   private MAX_RESULTS = 25;
 
   async getPlaylists(context: any): Promise<any> {
-    console.log('context: ', context);
     try {
       const res = await this.apiInstance.get('/playlists', {
         params: {
@@ -70,8 +69,6 @@ export class YouTubeAPI {
         },
         headers: this.attachHeaders(context)
       });
-
-      console.log(res.data.items);
 
       return res.data.items.map((item) => ({
         id: item.id,
